@@ -1,0 +1,38 @@
+{
+  "name": "aws-ips",
+  "version": "1.0.0",
+  "description": "A command line tool to fetch the latest AWS ip ranges, with optional filters for service and or region",
+  "bin": {
+    "aws-ips": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicporteous/aws-ips.git"
+  },
+  "keywords": [
+    "aws",
+    "ips",
+    "ranges",
+    "fetch",
+    "amazon",
+    "web",
+    "service",
+    "cidr"
+  ],
+  "author": "dominicporteous <dominic@dom.gs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominicporteous/aws-ips/issues"
+  },
+  "homepage": "https://github.com/dominicporteous/aws-ips#readme",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "cli-table": "^0.3.1",
+    "download-file-sync": "^1.0.4",
+    "json-try-parse": "^1.0.0",
+    "yargs": "^11.0.0"
+  }
+}
